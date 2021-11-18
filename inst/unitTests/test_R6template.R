@@ -14,6 +14,7 @@ test_ctor <- function()
     id <- "abc"
     rt <- R6template$new(id)
     checkTrue(all(c("R6", "R6template") %in% class(rt)))
+    checkEquals(rt$getID(), id)
 
 } # test_ctor
 #----------------------------------------------------------------------------------------------------

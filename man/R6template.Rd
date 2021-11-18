@@ -58,7 +58,7 @@ a new instance o R6template
 \if{html}{\out{<a id="method-getID"></a>}}
 \if{latex}{\out{\hypertarget{method-getID}{}}}
 \subsection{Method \code{getID()}}{
-simple accessor
+accessor for the object's id field
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{R6template$getID()}\if{html}{\out{</div>}}
 }

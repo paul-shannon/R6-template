@@ -26,7 +26,7 @@ R6template = R6Class("R6template",
             private$id <- id
             },
         #------------------------------------------------------------
-        #' @description simple accessor
+        #' @description accessor for the object's id field
         #' @return the current value of the id member
         getID = function(){
             private$id
