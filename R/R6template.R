@@ -1,5 +1,3 @@
-#' A template for building documented, tested R6 classes
-#'
 #' @title R6template
 #' @description A template for building documented, tested R6 classes
 #' @name R6template
