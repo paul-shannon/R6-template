@@ -13,7 +13,7 @@ test_ctor <- function()
 
     id <- "abc"
     rt <- R6template$new(id)
-    checkTrue("R6template" %in% is(rt))
+    checkTrue(all(c("R6", "R6template") %in% class(rt)))
 
 } # test_ctor
 #----------------------------------------------------------------------------------------------------
